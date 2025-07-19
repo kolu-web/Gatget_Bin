@@ -1,0 +1,80 @@
+.card{
+    margin-top: 1%;
+    margin:1%;
+    margin-left:5%;
+    padding: 1em;
+    width: 20rem;
+    background: rgba(7, 7, 7, 0.596);
+    text-align: center;
+    border-radius:10px;
+    position: relative;
+
+} 
+.card a {
+    text-decoration:none;
+    color: rgb(0, 132, 255);
+}
+
+.card::after {
+    position: absolute;
+    height: 100%;
+    width:100%;
+    top: 50%; 
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 10px;
+}
+.card img{
+    height:12rem;
+    width: 15rem;
+    margin-top:-0.5rem;
+}
+.card ul{
+color: rgb(24, 192, 178);
+font-size:large;
+font-weight:bold;
+font-family:monospace;
+}
+.card ul li{
+    color: rgb(28, 194, 180);
+    font-size:1.1em;
+    font-weight:bolder;
+} 
+.card ol li{
+    color: rgb(255, 255, 255);
+    font-size:1.01em;
+    font-weight:bolder;
+} 
+t {
+    font-size:1.01em;
+    color:rgb(255, 255, 255)
+}
+.card .links img{
+    width: 100px;
+    height: 100px;
+}
+.card .more{
+    width:auto;
+    margin: top -1rem;
+}
+.card .more a {
+    text-decoration:none;
+}
+.card .more img{
+    height:5rem;
+    width:auto;
+    margin:1rem;
+}
+.card .more h3{
+ width:100%;
+ font-size: xx-larger;
+ font-weight:900;
+  font-family:'Gill Sans MT';
+ color: rgb(14, 196, 180);
+ background-color:rgba(24, 24, 24, 0.521);
+ border:  solid 5px;
+ border-radius: 10px;
+ border-color:rgb(72, 199, 188);
+} 

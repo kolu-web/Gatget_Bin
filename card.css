@@ -36,16 +36,38 @@ color: rgb(24, 192, 178);
 font-size:large;
 font-weight:bold;
 font-family:monospace;
+list-style-position: outside; /* makes bullets align properly */
+padding-left: 20px; /* adjust space before text */
+list-style: none; /* remove default bullets */
 }
-.card ul li{
+.card ul >li{
     color: rgb(28, 194, 180);
     font-size:1.1em;
     font-weight:bolder;
+     margin-left: 0; /* reset any extra margin */
+   padding-left: 5px; /* space between bullet and text */
+    text-indent: 0; /* ensures first line aligns with others */
+     position: relative;
+  padding-left: 25px; /* space for icon */
+  margin-bottom: 5px;
 } 
+.card ul >li::before {
+  content: "⚓"; /* change this to any emoji/icon like 🔥, 🎮, 💻 */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.card ol {
+    list-style-position: outside; /* makes bullets align properly */
+    padding-left: 20px; /* adjust space before text */
+}
 .card ol li{
     color: rgb(255, 255, 255);
     font-size:1.01em;
     font-weight:bolder;
+    margin-left: 0; /* reset any extra margin */
+    padding-left: 5px; /* space between bullet and text */
+    text-indent: 0; /* ensures first line aligns with others */
 } 
 t {
     font-size:1.01em;

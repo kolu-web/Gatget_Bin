@@ -8,9 +8,14 @@ body{/*
      padding:2px;
 }
 .description{
-   color: rgb(90, 177, 148);
+   color: rgb(123, 255, 222);
    font-size: xx-large;
    font-family:'Gill Sans MT';
+}
+.description p {
+font-size: x-large;
+
+
 }
 .description cot{
     font-family: fantasy;

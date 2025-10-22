@@ -2,9 +2,19 @@
     color: rgb(53, 224, 167);
     font-size: x-large;
     }
-.gamelist h3 {
+.gamelist h2 {
     color: rgb(6, 179, 29);
 }
  .gamelist h5 {
     color: rgb(89, 204, 179);
 }
+.gamelist h3{
+    color: rgb(115, 196, 169);
+}
+.gamelist p{
+    color: rgb(182, 243, 235);
+}
+.gamelist h1 {
+    color: rgb(0, 255, 149);
+     
+    
